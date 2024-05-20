@@ -6,6 +6,23 @@
   "files": [
     "dist"
   ],
+  "keywords": [
+    "react",
+    "tailwind",
+    "input",
+    "validation",
+    "forms",
+    "Fast react form developement"
+  ],
+  "author": "Anupam Anand shukla",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anupamanandsukla/ui-template"
+  },
+  "bugs": {
+    "url": "https://github.com/anupamanandsukla/ui-template/issues"
+  },
   "main": "dist/ui-template-umd.cjs",
   "module": "dist/ui-template.js",
   "exports": {
