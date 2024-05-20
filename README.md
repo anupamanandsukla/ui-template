@@ -6,8 +6,7 @@ You can follow along the entire development of this project here 👇
 
 ## Getting Started
 
-We leverage Storybook as a showcase of the various components implemented by this library.
-To launch Storybook run:
+history
 
 ```bash
 yarn storybook

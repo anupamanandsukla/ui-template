@@ -13,8 +13,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, "./src/components/index.tsx"),
-      name: "ui-template",
-      fileName: "ui-template",
+      name: "react-ui-input-component",
+      fileName: "react-ui-input-component",
     },
     rollupOptions: {
       external: ["react", "react-dom"],
