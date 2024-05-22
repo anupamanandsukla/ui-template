@@ -1,6 +1,9 @@
 # React UI Library
 
-A basic typesafe UI Library built by using React, Typescript, TailwindCSS and Storybook.
+A basic typesafe UI Library built by using React, Typescript, TailwindCSS.
+
+Goal of this library is to create forms fast as much as possible
+with given ui library
 
 You can follow along the entire development of this project here 👇
 
@@ -24,8 +27,4 @@ npm run storybook
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
 ## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details

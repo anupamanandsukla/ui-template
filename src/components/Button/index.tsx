@@ -8,12 +8,12 @@ const buttonStyles = cva(
     "rounded-md",
     "font-semibold",
     "focus:outline-none",
-    "disabled:cursor-not-allowed",
+    "disabled:cursor-none",
   ],
   {
     variants: {
       variant: {
-        solid: "",
+        solid: "bg-primary hover:opacity-50",
         outline: "border-2",
         ghost: "transition-colors duration-300",
       },
@@ -30,18 +30,18 @@ const buttonStyles = cva(
       {
         variant: "solid",
         colorscheme: "primary",
-        className: "bg-primary-500 hover:bg-primary-600",
+        className: "bg-primary hover:opacity-50 disabled:cursor-none",
       },
       {
         variant: "outline",
         colorscheme: "primary",
         className:
-          "text-primary-600 border-primary-500 bg-transparent hover:bg-primary-100",
+          "text-primary-600 border-primary-500 bg-transparent  hover:opacity-50 disabled:cursor-none",
       },
       {
         variant: "ghost",
         colorscheme: "primary",
-        className: "text-primary-600 bg-transparent hover:bg-primary-100",
+        className: "text-primary-600 bg-transparent  hover:opacity-50 disabled:cursor-none",
       },
     ],
     defaultVariants: {
