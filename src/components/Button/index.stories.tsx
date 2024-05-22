@@ -7,6 +7,20 @@ const meta: Meta<typeof Button> = {
   parameters: {
     layout: "centered",
   },
+
+  argTypes: {
+    variant: {
+      control: { type: "select" },
+      options: ["default", "solid", "outline", "destructive", "ghost", "link"], 
+      defaultValue: "default",
+    },
+    size: {
+      control: { type: "select" },
+      options: ["default", "sm", "lg", "icon"], 
+      defaultValue: "default",
+    },
+    
+  },
   tags: ["autodocs"],
 };
 
@@ -31,6 +45,14 @@ export const Outline: Story = {
 export const Ghost: Story = {
   args: {
     variant: "ghost",
+    children: "Button",
+  },
+};
+
+
+export const Destructive: Story = {
+  args: {
+    variant: "destructive",
     children: "Button",
   },
 };
